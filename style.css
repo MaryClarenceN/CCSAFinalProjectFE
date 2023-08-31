@@ -1,0 +1,148 @@
+.body {
+    padding: 0;
+    margin: 0;
+    height: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.header {
+    background-color: #1d3144;
+    padding: 10px 0;
+} 
+
+.logo img {
+    min-width: 100px;
+}
+.navbar {
+    justify-content: flex-end;
+}
+
+
+.row {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(19, 16, 22);
+}
+
+.pagebanner {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.gradient_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, rgba(26, 25, 25, 0.849) 0%, rgba(99, 93, 93, 0.6) 100%);
+}
+
+.pagebanner .header_bar1 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: none;
+    padding: 0;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2%;
+}
+.inset_right_large {
+    padding-right: 4rem;
+}
+
+.group_3of4 {
+    width: 71.125%;
+}
+
+.wrapper {
+    margin: 20px;
+    max-width: 1200px; 
+    padding: 5px;
+    background-color: #1d3144;   
+}
+
+.header_bar {
+    color: #718699;
+    margin: 20px;
+    padding: 5px;
+}
+
+.number {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #051363;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.lead {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #9188e7;
+    margin-right: 10px;
+    padding-right: 5px;
+}
+
+.nick {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: #9188e7; */
+    margin-right: 10px;
+    padding-right: 5px; 
+}
+
+.h3 {
+    font-size: large;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+
+.text_purple {
+    color: #652D88;
+} 
+
+.trainingdog {
+    margin-right: 10px;
+    padding-right: 5px;
+}
+ 
+.Eclasses {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: .95em;
+    line-height: 1.6em;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.newmoney {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image {
+    flex-shrink: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media(min-width: 414px){
+
+} 
+    
